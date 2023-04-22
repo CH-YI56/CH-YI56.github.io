@@ -45,7 +45,7 @@ footer {
 }
 
 #about {
-	position: relative;
+	
 	display: flex;
 	padding: 10px;
 }
@@ -56,9 +56,6 @@ footer {
 	padding: 10px;
 }
 #rotate{
-	position: absolute;
-	left: 0;
-	top: 0;
 	font-weight: bold;
 	background-color:rgb(203, 249, 234);
 	float: left;
