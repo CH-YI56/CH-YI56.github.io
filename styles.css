@@ -50,6 +50,8 @@ footer {
 	padding: 10px;
 }
 #about h1{
+	text-align: center;
+	background-color: rgb(228, 250, 243);
 	flex: 1;
 }
 #projects {
