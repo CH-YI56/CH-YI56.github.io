@@ -19,7 +19,7 @@ body {
 @keyframes bgcolorchange{
 	0% {background-color: rgb(250, 240, 196)};
 	50%{background-color: #e5f8c9};
-	100%{background-color:rgb(222, 252, 242)};
+	100%{background-color:rgb(195, 244, 228)};
 }
 
 #page {
@@ -51,9 +51,18 @@ footer {
 #projects {
 	padding: 10px;
 }
-
-.alignleft {
+#rotate{
 	float: left;
+	width: 110px;
+	height: 110px;
+	transform: rotate(0deg);
+}
+#rotate hover{
+	transform: rotate(1230deg);
+	transition: all 2s ease-out;
+}
+.alignleft {
+	/* float: left; */
 	margin: 0 10px 5px 0;
 }
 
@@ -76,6 +85,9 @@ header h1 {
 }
 h3{
 	color:rgb(199, 152, 152);
+}
+h4{
+	border-bottom: 2px dotted rgb(116, 137, 127);
 }
 p {
 	line-height:1.5em;
