@@ -57,7 +57,7 @@ footer {
 	height: 110px;
 	transform: rotate(0deg);
 }
-#rotate hover{
+#rotate:hover{
 	transform: rotate(1230deg);
 	transition: all 2s ease-out;
 }
