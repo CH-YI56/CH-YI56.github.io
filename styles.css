@@ -60,7 +60,7 @@ footer {
 	transform: rotate(0deg);
 }
 #rotate image{
-	border-radius: 30px;
+	border-radius: 30%;
 }
 #rotate:hover {
 	transform: rotate(1800deg);
