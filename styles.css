@@ -11,9 +11,15 @@ img { max-width:100%; }
 
 body {
 	background:url(images/paper.png);
-	color: #645b3c;
+	color: #7e6c4a;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px 0;
+	animation: bgcolorchange 8s infinite alternate;
+}
+@keyframes bgcolorchange{
+	0% {background-color: rgb(250, 240, 196)};
+	50%{background-color: #e5f8c9};
+	100%{background-color:rgb(222, 252, 242)};
 }
 
 #page {
@@ -64,10 +70,13 @@ h1 {
 }
 
 header h1 {
+	color:brown;
 	font-size:300%;
 	margin-bottom:.1em;
 }
-
+h3{
+	color:rgb(199, 152, 152);
+}
 p {
 	line-height:1.5em;
 	margin-bottom:1em;
