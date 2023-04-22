@@ -92,6 +92,7 @@ h3{
 	color:rgb(199, 152, 152);
 }
 h4{
+	padding-bottom: 15px;
 	border-bottom: 2px dotted rgb(116, 137, 127);
 }
 p {
