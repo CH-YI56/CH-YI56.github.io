@@ -67,9 +67,6 @@ footer {
 	height: 150px;
 	transform: rotate(0deg);
 }
-#header{ position: absolute;	
-	    z-index: -1px;
-}
 /* #rotate img{
 	display: block;
 	border-radius: 30%;
