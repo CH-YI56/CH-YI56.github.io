@@ -52,12 +52,17 @@ footer {
 	padding: 10px;
 }
 #rotate{
+	font-weight: bold;
+	background-color:rgb(203, 249, 234) ;
 	float: left;
 	width: 110px;
 	height: 110px;
 	transform: rotate(0deg);
 }
-#rotate:hover{
+#rotate image{
+	border-radius: 30;
+}
+#rotate:hover {
 	transform: rotate(1230deg);
 	transition: all 2s ease-out;
 }
