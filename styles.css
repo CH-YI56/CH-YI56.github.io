@@ -46,9 +46,12 @@ footer {
 
 #about {
 	position: relative;
+	display: flex;
 	padding: 10px;
 }
-
+#about h1{
+	flex: 1 100%;
+}
 #projects {
 	padding: 10px;
 }
@@ -59,6 +62,7 @@ footer {
 	font-weight: bold;
 	background-color:rgb(203, 249, 234);
 	float: left;
+	flex: 1;
 	display: flex; 
 	flex-direction: column;
 	align-items: flex-top;
@@ -67,13 +71,22 @@ footer {
 	height: 150px;
 	transform: rotate(0deg);
 }
-/* #rotate img{
-	display: block;
+#rotate img{
+	
 	border-radius: 30%;
-} */
+} 
 #rotate:hover {
 	transform: rotate(1800deg);
 	transition: all 3s ease-out;
+}
+.text1 {
+	flex: 1;
+}
+.text2{
+	flex: 1 100%;
+}
+.edu{
+	flex: 1 100%;
 }
 .alignleft {
 	/* float: left; */
